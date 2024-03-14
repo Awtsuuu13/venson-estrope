@@ -172,7 +172,7 @@
     }
 
     .home__img {
-        box-shadow: inset 0 0 0 6pc rgb(255 255 255 / 30%);
+        box-shadow: inset 0 0 0 6px rgb(255 255 255 / 30%);
         width: 200px;
         height: 200px;
     }
