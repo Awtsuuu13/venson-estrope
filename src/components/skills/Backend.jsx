@@ -19,7 +19,7 @@ function Backend() {
                             <i className="bx bx-badge-check"></i>
 
                             <div>
-                                <h3 className="skills__name">MySQl</h3>
+                                <h3 className="skills__name">Laravel</h3>
                                 <span className="skills__level">Basic</span>
                             </div>
                         </div>
@@ -28,7 +28,7 @@ function Backend() {
                             <i className="bx bx-badge-check"></i>
 
                             <div>
-                                <h3 className="skills__name">Laravel</h3>
+                                <h3 className="skills__name">Codeigniter</h3>
                                 <span className="skills__level">Intermediate</span>
                             </div>
                         </div>
@@ -40,7 +40,7 @@ function Backend() {
                             <i className="bx bx-badge-check"></i>
 
                             <div>
-                                <h3 className="skills__name">Codeigniter</h3>
+                                <h3 className="skills__name">Vanilla PHP</h3>
                                 <span className="skills__level">Basic</span>
                             </div>
                         </div>
@@ -49,7 +49,7 @@ function Backend() {
                             <i className="bx bx-badge-check"></i>
 
                             <div>
-                                <h3 className="skills__name">React</h3>
+                                <h3 className="skills__name">MYSQL</h3>
                                 <span className="skills__level">Basic</span>
                             </div>
                         </div>
@@ -58,7 +58,7 @@ function Backend() {
                             <i className="bx bx-badge-check"></i>
 
                             <div>
-                                <h3 className="skills__name">Vue</h3>
+                                <h3 className="skills__name">REST API</h3>
                                 <span className="skills__level">Intermediate</span>
                             </div>
                         </div>
