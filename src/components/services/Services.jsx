@@ -17,7 +17,7 @@ function Services() {
                     <div className="services__content">
                         <div>
                             <i className="uil uil-web-grid services__icon"></i>
-                            <h3 className="services__title">Web <br /> Developer</h3>
+                            <h3 className="services__title">Web <br /> Development</h3>
                         </div>
 
                         <span className="services__button" onClick={() => toggleTab(1)}>View More
@@ -28,7 +28,7 @@ function Services() {
                             <div className="services__modal-content">
                                 <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
 
-                                <h3 className="services__modal-title">Web Developer</h3>
+                                <h3 className="services__modal-title">Web Development</h3>
                                 <p className="services__modal-description">Service with more than 3 years of experience.
                                     Providing quality work to clients and companies.</p>
 
@@ -40,7 +40,7 @@ function Services() {
 
                                     <li className="services__modal-service">
                                         <i className="uil uil-check-circle services__modal-icon"></i>
-                                        <p className="services__modal-info">Design web application with user friendly interface and mobile responsive.</p>
+                                        <p className="services__modal-info">Creating visually appealing and user-friendly website layouts that align with the client's brand identity and objectives.</p>
                                     </li>
 
                                     <li className="services__modal-service">
@@ -70,7 +70,7 @@ function Services() {
 
                     <div className="services__content">
                         <div>
-                            <i className="uil uil-edit services__icon"></i>
+                            <i className="uil uil-database services__icon"></i>
                             <h3 className="services__title">Database <br /> Admin</h3>
                         </div>
 
