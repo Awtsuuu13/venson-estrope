@@ -11,7 +11,7 @@ function Frontend() {
 
                             <div>
                                 <h3 className="skills__name">React JS</h3>
-                                <span className="skills__level">Basic</span>
+                                <span className="skills__level">Intermediate</span>
                             </div>
                         </div>
 
@@ -20,7 +20,7 @@ function Frontend() {
 
                             <div>
                                 <h3 className="skills__name">jQuery</h3>
-                                <span className="skills__level">Basic</span>
+                                <span className="skills__level">Intermediate</span>
                             </div>
                         </div>
 
@@ -41,7 +41,7 @@ function Frontend() {
 
                             <div>
                                 <h3 className="skills__name">Bootstrap</h3>
-                                <span className="skills__level">Basic</span>
+                                <span className="skills__level">Intermediate</span>
                             </div>
                         </div>
 
@@ -50,7 +50,7 @@ function Frontend() {
 
                             <div>
                                 <h3 className="skills__name">HTML 5</h3>
-                                <span className="skills__level">Basic</span>
+                                <span className="skills__level">Intermediate</span>
                             </div>
                         </div>
 

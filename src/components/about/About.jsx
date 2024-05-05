@@ -1,6 +1,6 @@
 import "./about.css"
 import AboutImg from "../../assets/venson.jpg"
-import CV from "../../assets/John-Cv.pdf"
+import CV from "../../assets/EstropeVenson-Resume.pdf"
 import Info from "./Info"
 
 function About() {
@@ -16,9 +16,9 @@ function About() {
                     <div className="about__data">
                         <Info />
 
-                        <p className="about__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                            when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <p className="about__description">Hello, my name is Venson Estrope
+                            I am an experienced web developer with 3 years of experience. . With a strong background in back-end development, front-end design, and extensive experience in implementing robust internal systems,
+                            I am confident in my ability to deliver efficient and high-quality solutions for your projects.</p>
 
                         <a download="" href={CV} className="button button--flex">Download CV
                             <svg
