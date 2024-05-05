@@ -17,7 +17,7 @@ function About() {
                         <Info />
 
                         <p className="about__description">Hello, my name is Venson Estrope
-                            I am an experienced web developer with 3 years of experience. . With a strong background in back-end development, front-end design, and extensive experience in implementing robust internal systems,
+                            I am an experienced web developer with 3 years of experience. With a strong background in back-end development, front-end design, and extensive experience in implementing robust internal systems,
                             I am confident in my ability to deliver efficient and high-quality solutions for your projects.</p>
 
                         <a download="" href={CV} className="button button--flex">Download CV

@@ -11,7 +11,7 @@ function Backend() {
 
                             <div>
                                 <h3 className="skills__name">PHP</h3>
-                                <span className="skills__level">Intermediate</span>
+                                <span className="skills__level">Advanced</span>
                             </div>
                         </div>
 
@@ -20,7 +20,7 @@ function Backend() {
 
                             <div>
                                 <h3 className="skills__name">Laravel</h3>
-                                <span className="skills__level">Intermediate</span>
+                                <span className="skills__level">Advanced</span>
                             </div>
                         </div>
 
@@ -29,7 +29,7 @@ function Backend() {
 
                             <div>
                                 <h3 className="skills__name">Codeigniter</h3>
-                                <span className="skills__level">Intermediate</span>
+                                <span className="skills__level">Advanced</span>
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ function Backend() {
 
                             <div>
                                 <h3 className="skills__name">Vanilla PHP</h3>
-                                <span className="skills__level">Intermediate</span>
+                                <span className="skills__level">Advanced</span>
                             </div>
                         </div>
 
@@ -50,7 +50,7 @@ function Backend() {
 
                             <div>
                                 <h3 className="skills__name">MYSQL</h3>
-                                <span className="skills__level">Intermediate</span>
+                                <span className="skills__level">Advanced</span>
                             </div>
                         </div>
 
@@ -59,7 +59,7 @@ function Backend() {
 
                             <div>
                                 <h3 className="skills__name">REST API</h3>
-                                <span className="skills__level">Intermediate</span>
+                                <span className="skills__level">Advanced</span>
                             </div>
                         </div>
                     </div>

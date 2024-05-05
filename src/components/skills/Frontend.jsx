@@ -20,7 +20,7 @@ function Frontend() {
 
                             <div>
                                 <h3 className="skills__name">jQuery</h3>
-                                <span className="skills__level">Intermediate</span>
+                                <span className="skills__level">Advanced</span>
                             </div>
                         </div>
 
@@ -29,7 +29,7 @@ function Frontend() {
 
                             <div>
                                 <h3 className="skills__name">AJAX</h3>
-                                <span className="skills__level">Intermediate</span>
+                                <span className="skills__level">Advanced</span>
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ function Frontend() {
 
                             <div>
                                 <h3 className="skills__name">Bootstrap</h3>
-                                <span className="skills__level">Intermediate</span>
+                                <span className="skills__level">Advanced</span>
                             </div>
                         </div>
 
@@ -50,7 +50,7 @@ function Frontend() {
 
                             <div>
                                 <h3 className="skills__name">HTML 5</h3>
-                                <span className="skills__level">Intermediate</span>
+                                <span className="skills__level">Advanced</span>
                             </div>
                         </div>
 
@@ -59,7 +59,7 @@ function Frontend() {
 
                             <div>
                                 <h3 className="skills__name">CSS 3</h3>
-                                <span className="skills__level">Intermediate</span>
+                                <span className="skills__level">Advanced</span>
                             </div>
                         </div>
                     </div>
