@@ -3,7 +3,7 @@ import './qualifications.css'
 
 function Qualifications() {
 
-    const [toggleState, setToggleState] = useState(1);
+    const [toggleState, setToggleState] = useState(2);
 
     const toggleTab = (index) => {
         setToggleState(index);
@@ -16,11 +16,11 @@ function Qualifications() {
 
             <div className="qualification__container container">
                 <div className="qualification__tabs">
-                    <div className={toggleState === 1 ? "qualification__button qualification__active button--flex" : "qualification__button button--flex"}
+                    {/* <div className={toggleState === 1 ? "qualification__button qualification__active button--flex" : "qualification__button button--flex"}
                         onClick={() => toggleTab(1)}>
                         <i className="uil uil-graduation-cap qualification__icon"></i>
                         Education
-                    </div>
+                    </div> */}
 
                     <div className={toggleState === 2 ? "qualification__button qualification__active button--flex" : "qualification__button button--flex"}
                         onClick={() => toggleTab(2)}>
