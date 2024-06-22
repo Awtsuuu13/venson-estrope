@@ -25,16 +25,18 @@ const Modal = ({ show, onClose, images }) => {
           <img src={images[currentIndex]} alt={`Gallery image ${currentIndex + 1}`} className="modal-image-large" />
           <button onClick={handleNext} className="nav-button">&raquo;</button>
         </div>
-        <div className="modal-thumbnails">
-          {images.map((image, index) => (
-            <img
-              key={index}
-              src={image}
-              alt={`Thumbnail ${index + 1}`}
-              className={`modal-thumbnail ${currentIndex === index ? 'active' : ''}`}
-              onClick={() => setCurrentIndex(index)}
-            />
-          ))}
+        <div className="modal-thumbnails-container">
+          <div className="modal-thumbnails">
+            {images.map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                alt={`Thumbnail ${index + 1}`}
+                className={`modal-thumbnail ${currentIndex === index ? 'active' : ''}`}
+                onClick={() => setCurrentIndex(index)}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </div>

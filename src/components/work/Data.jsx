@@ -1,12 +1,9 @@
 import ArcusLogin from '../../assets/arcus-login.png'
 import NexusLogin from '../../assets/nexus-login.png'
-import ImsLogin from '../../assets/ims-login.png'
-
 
 import GoCtpl from '../../assets/goctpl.png'
 import Ecgl from '../../assets/ecgl.png'
 import WWMS from '../../assets/wwms.png'
-import Slsu from '../../assets/slsu-login.png'
 
 import OfwLogin from '../../assets/ofw/ofw-login.png'
 import coi from '../../assets/ofw/coi.png'
@@ -28,6 +25,35 @@ import vesselparam from '../../assets/scanmar/vesselparam.png'
 import crewwages from '../../assets/scanmar/crewwages.png'
 import accessroles from '../../assets/scanmar/accessroles.png'
 import accesssetup from '../../assets/scanmar/accesssetup.png'
+
+import ImsLogin from '../../assets/ims-login.png'
+import one from '../../assets/ims/1.png'
+import two from '../../assets/ims/2.png'
+import three from '../../assets/ims/3.png'
+import four from '../../assets/ims/4.png'
+import five from '../../assets/ims/5.png'
+import six from '../../assets/ims/6.png'
+import seven from '../../assets/ims/7.png'
+import eight from '../../assets/ims/8.png'
+import nine from '../../assets/ims/9.png'
+
+
+import Slsu from '../../assets/slsu-login.png'
+import add from '../../assets/slsu/add.png'
+import chairman from '../../assets/slsu/chairman.png'
+import Enrolled from '../../assets/slsu/Enrolled.png'
+import Gwa from '../../assets/slsu/Gwa.png'
+import Login from '../../assets/slsu/Login.png'
+import Register from '../../assets/slsu/Register.png'
+import Register1 from '../../assets/slsu/Register1.png'
+import Register2 from '../../assets/slsu/Register2.png'
+import restore from '../../assets/slsu/restore.png'
+import Section from '../../assets/slsu/Section.png'
+import Student_admin from '../../assets/slsu/Student_admin.png'
+import Student_grade from '../../assets/slsu/Student_grade.png'
+import Subject from '../../assets/slsu/Subject.png'
+import Update_details from '../../assets/slsu/Update_details.png'
+import User from '../../assets/slsu/User.png'
 
 
 export const projectsData = [
@@ -106,7 +132,16 @@ export const projectsData = [
       category: "app",
       link: null,
       additionalImages: [
-        ImsLogin
+        ImsLogin,
+        one,
+        two,
+        three,
+        four,
+        five,
+        six,
+        seven,
+        eight,
+        nine
       ]
     },
     {
@@ -135,7 +170,21 @@ export const projectsData = [
       category: "app",
       link: null,
       additionalImages: [
-        Slsu
+        Slsu,
+        add,
+        chairman,
+        Enrolled,
+        Gwa,
+        Register,
+        Register1,
+        Register2,
+        restore,
+        Section,
+        Student_admin,
+        Student_grade,
+        Subject,
+        Update_details,
+        User
       ]
     },
     

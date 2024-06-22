@@ -57,10 +57,15 @@
   border-radius: 10px;
 }
 
-.modal-thumbnails {
+.modal-thumbnails-container {
+  overflow-x: auto;
   display: flex;
   justify-content: center;
   margin-top: 20px;
+}
+
+.modal-thumbnails {
+  display: flex;
   gap: 10px;
 }
 
@@ -71,6 +76,7 @@
   border-radius: 5px;
   cursor: pointer;
   border: 2px solid transparent;
+  flex: 0 0 auto;
 }
 
 .modal-thumbnail.active {
