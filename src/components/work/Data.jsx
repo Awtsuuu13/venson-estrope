@@ -14,7 +14,11 @@ import varioustable from '../../assets/scanmar/varioustable.png'
 import payrollprocess from '../../assets/scanmar/payrollprocess.png'
 import vesselpayslip from '../../assets/scanmar/vesselpayslip.png'
 import vesselparameter from '../../assets/scanmar/vesselparameter.png'
+import vesselparam from '../../assets/scanmar/vesselparam.png'
 import crewwages from '../../assets/scanmar/crewwages.png'
+import accessroles from '../../assets/scanmar/accessroles.png'
+import accesssetup from '../../assets/scanmar/accesssetup.png'
+
 
 export const projectsData = [
     {
@@ -98,9 +102,12 @@ export const projectsData = [
         bankdownloading,
         varioustable,
         vesselparameter,
+        vesselparam,
         vesselpayslip,
         payrollprocess,
-        crewwages
+        crewwages,
+        accessroles,
+        accesssetup
       ]
     },
     {
