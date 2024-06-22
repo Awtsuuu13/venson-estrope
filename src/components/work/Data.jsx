@@ -5,6 +5,8 @@ import Scanmar from '../../assets/scanmar.png'
 import OfwLogin from '../../assets/ofw-login.png'
 import GoCtpl from '../../assets/goctpl.png'
 import Ecgl from '../../assets/ecgl.png'
+import WWMS from '../../assets/wwms.png'
+import Slsu from '../../assets/slsu-login.png'
 
 export const projectsData = [
     {
@@ -44,18 +46,33 @@ export const projectsData = [
     },
     {
       id: 6,
+      image: WWMS,
+      title: "WMS - Warehouse Management System",
+      category: "app",
+      link: "app",
+    },
+    {
+      id: 7,
       image: IMsLogin,
       title: "IMS - Order Tracking System",
       category: "app",
       link: "app",
     },
     {
-      id: 7,
+      id: 8,
       image: Scanmar,
       title: "Scanmar - Maritime Payroll System",
       category: "app",
       link: "app",
     },
+    {
+      id: 9,
+      image: Slsu,
+      title: "SLSU Graduating Application System",
+      category: "app",
+      link: "app",
+    },
+    
   ];
 
   export const projectsNav = [
