@@ -2,11 +2,21 @@ import ArcusLogin from '../../assets/arcus-login.png'
 import NexusLogin from '../../assets/nexus-login.png'
 import ImsLogin from '../../assets/ims-login.png'
 
-import OfwLogin from '../../assets/ofw-login.png'
+
 import GoCtpl from '../../assets/goctpl.png'
 import Ecgl from '../../assets/ecgl.png'
 import WWMS from '../../assets/wwms.png'
 import Slsu from '../../assets/slsu-login.png'
+
+import OfwLogin from '../../assets/ofw/ofw-login.png'
+import coi from '../../assets/ofw/coi.png'
+import Detailedreport from '../../assets/ofw/Detailedreport.png'
+import exchangerate from '../../assets/ofw/exchangerate.png'
+import newtransaction from '../../assets/ofw/newtransaction.png'
+import payment from '../../assets/ofw/payment.png'
+import reprint from '../../assets/ofw/reprint.png'
+import statementofaccount from '../../assets/ofw/statementofaccount.png'
+import updatetransaction from '../../assets/ofw/updatetransaction.png'
 
 import Scanmar from '../../assets/scanmar/scanmar.png'
 import bankdownloading from '../../assets/scanmar/bankdownloading.png'
@@ -26,27 +36,35 @@ export const projectsData = [
       image: OfwLogin,
       title: "OFW Insurance System",
       category: "app",
-      link: "app",
+      link: null,
       additionalImages: [
-        OfwLogin
+        OfwLogin,
+        coi,
+        Detailedreport,
+        exchangerate,
+        newtransaction,
+        payment,
+        reprint,
+        statementofaccount,
+        updatetransaction,
       ]
     },
-    {
-      id: 2,
-      image: ArcusLogin,
-      title: "Arcus - Claims System",
-      category: "app",
-      link: "app",
-      additionalImages: [
-        ArcusLogin
-      ]
-    },
+    // {
+    //   id: 2,
+    //   image: ArcusLogin,
+    //   title: "Arcus - Claims System",
+    //   category: "app",
+    //   link: "app",
+    //   additionalImages: [
+    //     ArcusLogin
+    //   ]
+    // },
     {
       id: 3,
       image: NexusLogin,
       title: "Nexus - Bonds Insurance System",
       category: "app",
-      link: "app",
+      link: null,
       additionalImages: [
         NexusLogin
       ]
@@ -56,7 +74,7 @@ export const projectsData = [
       image: GoCtpl,
       title: "GoCTPL - Motorcar Insurance System",
       category: "app",
-      link: "app",
+      link: "https://goctpl.com/",
       additionalImages: [
         GoCtpl
       ]
@@ -66,7 +84,7 @@ export const projectsData = [
       image: Ecgl,
       title: "ECGL - Manila CGL Insurance System",
       category: "app",
-      link: "app",
+      link: "https://www.cglis.com.ph/cglismanila",
       additionalImages: [
         Ecgl
       ]
@@ -76,7 +94,7 @@ export const projectsData = [
       image: WWMS,
       title: "WMS - Warehouse Management System",
       category: "app",
-      link: "app",
+      link: null,
       additionalImages: [
         WWMS
       ]
@@ -86,7 +104,7 @@ export const projectsData = [
       image: ImsLogin,
       title: "IMS - Order Tracking System",
       category: "app",
-      link: "app",
+      link: null,
       additionalImages: [
         ImsLogin
       ]
@@ -96,7 +114,7 @@ export const projectsData = [
       image: Scanmar,
       title: "Scanmar - Maritime Payroll System",
       category: "app",
-      link: "app",
+      link: null,
       additionalImages: [
         Scanmar,
         bankdownloading,
@@ -115,7 +133,7 @@ export const projectsData = [
       image: Slsu,
       title: "SLSU Graduating Application System",
       category: "app",
-      link: "app",
+      link: null,
       additionalImages: [
         Slsu
       ]
