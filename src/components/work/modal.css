@@ -82,3 +82,52 @@
 .modal-thumbnail.active {
   border-color: #000;
 }
+
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+  
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  
+}   
+
+@media screen and (max-width: 576px) {
+  .modal-image-large {
+    width: 100%;
+  }
+
+  .modal-thumbnail.active {
+    border-color: #000;
+  }
+
+  .modal-thumbnail {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    flex: 0 0 auto;
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: -20px;
+    margin-right: -8px;
+  }
+}
+
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .modal-image-large {
+    width: 100%;
+  }
+}
