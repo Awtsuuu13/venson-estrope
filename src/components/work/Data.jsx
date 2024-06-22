@@ -1,12 +1,20 @@
 import ArcusLogin from '../../assets/arcus-login.png'
 import NexusLogin from '../../assets/nexus-login.png'
-import IMsLogin from '../../assets/ims-login.png'
-import Scanmar from '../../assets/scanmar.png'
+import ImsLogin from '../../assets/ims-login.png'
+
 import OfwLogin from '../../assets/ofw-login.png'
 import GoCtpl from '../../assets/goctpl.png'
 import Ecgl from '../../assets/ecgl.png'
 import WWMS from '../../assets/wwms.png'
 import Slsu from '../../assets/slsu-login.png'
+
+import Scanmar from '../../assets/scanmar/scanmar.png'
+import bankdownloading from '../../assets/scanmar/bankdownloading.png'
+import varioustable from '../../assets/scanmar/varioustable.png'
+import payrollprocess from '../../assets/scanmar/payrollprocess.png'
+import vesselpayslip from '../../assets/scanmar/vesselpayslip.png'
+import vesselparameter from '../../assets/scanmar/vesselparameter.png'
+import crewwages from '../../assets/scanmar/crewwages.png'
 
 export const projectsData = [
     {
@@ -14,7 +22,10 @@ export const projectsData = [
       image: OfwLogin,
       title: "OFW Insurance System",
       category: "app",
-      link: "https://awtsuuu13.github.io/venson-estrope/assets/ofw-login-Pib-7l7C.png",
+      link: "app",
+      additionalImages: [
+        OfwLogin
+      ]
     },
     {
       id: 2,
@@ -22,6 +33,9 @@ export const projectsData = [
       title: "Arcus - Claims System",
       category: "app",
       link: "app",
+      additionalImages: [
+        ArcusLogin
+      ]
     },
     {
       id: 3,
@@ -29,6 +43,9 @@ export const projectsData = [
       title: "Nexus - Bonds Insurance System",
       category: "app",
       link: "app",
+      additionalImages: [
+        NexusLogin
+      ]
     },
     {
       id: 4,
@@ -36,6 +53,9 @@ export const projectsData = [
       title: "GoCTPL - Motorcar Insurance System",
       category: "app",
       link: "app",
+      additionalImages: [
+        GoCtpl
+      ]
     },
     {
       id: 5,
@@ -43,6 +63,9 @@ export const projectsData = [
       title: "ECGL - Manila CGL Insurance System",
       category: "app",
       link: "app",
+      additionalImages: [
+        Ecgl
+      ]
     },
     {
       id: 6,
@@ -50,13 +73,19 @@ export const projectsData = [
       title: "WMS - Warehouse Management System",
       category: "app",
       link: "app",
+      additionalImages: [
+        WWMS
+      ]
     },
     {
       id: 7,
-      image: IMsLogin,
+      image: ImsLogin,
       title: "IMS - Order Tracking System",
       category: "app",
       link: "app",
+      additionalImages: [
+        ImsLogin
+      ]
     },
     {
       id: 8,
@@ -64,6 +93,15 @@ export const projectsData = [
       title: "Scanmar - Maritime Payroll System",
       category: "app",
       link: "app",
+      additionalImages: [
+        Scanmar,
+        bankdownloading,
+        varioustable,
+        vesselparameter,
+        vesselpayslip,
+        payrollprocess,
+        crewwages
+      ]
     },
     {
       id: 9,
@@ -71,6 +109,9 @@ export const projectsData = [
       title: "SLSU Graduating Application System",
       category: "app",
       link: "app",
+      additionalImages: [
+        Slsu
+      ]
     },
     
   ];
