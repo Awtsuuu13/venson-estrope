@@ -9,7 +9,7 @@ function Social() {
                 <i className="uil uil-dribbble"></i>
             </a>
 
-            <a href="#" className="home_social-icon" target="_blank">
+            <a href="https://github.com/" className="home_social-icon" target="_blank">
                 <i className="uil uil-github-alt"></i>
             </a>
         </div>
